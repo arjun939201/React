@@ -1,12 +1,20 @@
-function App() {
+function User() {
   const name = "Arjun";
   const age = 23;
 
   return (
-    <>
-      <h1>Myself {name}, {age} years old</h1>
-      <h2>I'm learning ReactJS</h2>
-    </>
+    <div>
+      <h1>Name: {name}</h1>
+      <p>Age: {age}</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <User />
+    </div>
   );
 }
 
